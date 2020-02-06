@@ -39,3 +39,12 @@ function howManyNodes(typeOfNode) {
     }, 0);
 }
 ```
+
+## Experiences
+I performed some tasks HTML, CSS, JS. 
+
+## Education
+Belaruski Nacyjanal'ny Tehnièny Universitet
+
+## Language
+English: ~ pre-Intermediate (A2)

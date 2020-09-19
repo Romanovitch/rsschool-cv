@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  margin: 0;
+  padding: 0 calc(50% - 512px);
+  font-family: Arial,sans-serif;
+  line-height: 1.5;
+  color: #24292E;
+}
+
+h1 {
+  font-size: 32px;  
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  border-bottom: 1px solid #EAECEF;
+}
+
+.contact--wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact--photo {
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.contact--list {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.contact--item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact--name {
+  width: 150px;
+  font-style: italic;
+}
+
+.contact--link {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.contact--link:hover {
+  color: #1200b1;
+  background-color: rgb(207, 211, 216);
+}
+
+.skill--type {
+  font-weight: 600;
+}
+
+.snippet {
+  padding: 10px;
+}
+
+pre {
+  display: block;
+  overflow: auto;
+  background-color: #eff0f1;
+}
+
+code {
+  display: block;
+  margin: 0;
+  padding: 16px;
+  font-family:"Courier New", monospace;
+  white-space: pre;
+}

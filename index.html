@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Romanovitch Konstantin</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- <h1 hidden>Contact Info junior frontend-developer</h1> -->
+            <h1>Romanovitch Konstantin</h1>
+            <h2>Contact Info</h2>
+            <div class="contact--wrap">
+                <img class="contact--photo" 
+                  src="assets/img/Kotaro.jpg" 
+                  width="120" 
+                  alt="photo Konstantin Romanovitch">
+                <ul class="contact--list">
+                    <li class="contact--item">
+                      <span class="contact--name">
+                        Phone number: 
+                      </span>
+                      <a class="contact--link" 
+                        href="tel:+375336252769" 
+                        title="My Phone number">
+                          +375336252769
+                      </a>
+                    </li>
+                    <li class="contact--item">
+                      <span class="contact--name">
+                        E-mail:
+                      </span>  
+                      <a class="contact--link" 
+                        href="mailto:rokos.job@gmail.com" 
+                        title="My E-mail">
+                          rokos.job@gmail.com
+                      </a>
+                    </li>
+                    <li class="contact--item">
+                      <span class="contact--name">
+                        LinkedIn profile:
+                      </span>
+                      <a class="contact--link" 
+                        href="https://www.linkedin.com/in/konstantin-romanovitch-1b21a198/"
+                        title="My LinkedIn profile">
+                          Konstantin Romanovitch
+                      </a>
+                    </li>
+                    <li class="contact--item">
+                      <span class="contact--name">
+                        GitHub:
+                      </span>
+                      <a class="contact--link" 
+                        href="https://github.com/Romanovitch/"
+                        title="My GitHub">
+                          Romanovitch
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Summary</h2>
+            <p>
+                Novice frontend-developer with technical education. <br>
+                I read an article about SEO. It has awakened great interest in the topic of how to create and how work websites. <br>
+                I got acquainted with SEO, Software Testing and how to create websites. <br>
+                I like to create. It influenced my vision for the future. <br>
+                I have decided to change the direction of my professional activity and realize myself in the IT industry. <br>
+                Dedication, perseverance and good self-education skills help me move towards this goal.
+            </p>
+        </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><span class="skill--type">Programming languages and technologies :</span>
+                    Javascript, HTML/Pug, CSS/SCSS, PHP(a little bit), 
+                    Adaptive/Responsive Markup
+                </li>
+                <li><span class="skill--type">Programming practices :</span>
+                    Agile, Kanban, Scrum
+                </li>
+                <li><span class="skill--type">Framework and Libraries :</span>
+                    bootstrap
+                </li>
+                <li><span class="skill--type">Tools :</span>
+                    WebStorm, VSCode, Photoshop, Zeplin, PSDetch, GIT, Gulp, 
+                    SQL DB (Access, MySQL), Open Server
+                </li>
+                <li><span class="skill--type">Software Testing tools :</span>
+                    Android Studio, Charles proxy, Postman
+                </li>
+                <li><span class="skill--type">Other skills : </span>
+                    advanced user in: Windows, AutoCAD, Excel
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Code example</h2>
+            <div class="snippet">
+<pre><code>function howManyNodes(typeOfNode) {
+    return Array.from(document.childNodes)
+        .filter(iNode => Array.from(iNode.childNodes).length !== 0)
+        .reduce(function reducer(sum, iNode) { 
+        return Array.from(iNode.childNodes).reduce(reducer, sum) 
+            + (iNode.nodeType === typeOfNode ? 1 : 0);
+    }, 0);
+}</code></pre>
+            </div>
+        </section>
+        <section>
+            <h2>Experiences</h2>
+            <p>
+                I performed some tasks HTML, CSS, JS.
+            </p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>
+                Belaruski Nacyjanal'ny Tehnièny Universitet
+            </p>
+        </section>
+        <section>
+            <h2>Language</h2>
+            <p>
+                English: ~ pre-Intermediate (A2)
+            </p>
+        </section>
+    </main>
+</body>
+</html>
